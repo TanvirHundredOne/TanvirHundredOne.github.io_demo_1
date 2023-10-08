@@ -148,7 +148,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <!-- <i class="fa fa-search-plus fa-3x"></i> -->
-                                Knowledge Aggregator
+                                Info Assistant
                             </div>
                         </div>
                         <img src="img/new-img/logic.png" class="img-responsive" alt="">
@@ -340,10 +340,20 @@
                             <h2>DocAI</h2>
                             <hr class="star-primary">
                             <img src="img/new-img/docAI.png" class="img-responsive img-centered" alt="">
-                            <p>DocAI is a real-time document verifying system that varifies and extracts document data
+                            <p>
+                                DocAI is a real-time document verifying system that varifies and extractes document data
+                                for registration platform in both English and Bengali language. The core model is based
+                                on pre-trained <a href="https://huggingface.co/docs/transformers/model_doc/donut"> Donut </a> model.
+                                The model is further trained on real data and synthetic
+                                data for the specific document layout. The process has also been repeated for training the
+                                existing model on Bengali language. Finally, it had achieved 96% accuracy on test set.
+                                The synthetic data was produced using SynthDog and DocSim. Then the model is served
+                                with Nvidia-Triton that ensured 10 TPS service quality and maximum GPU utilization.
+                            </p>
+                            <!-- <p>DocAI is a real-time document verifying system that varifies and extracts document data
                             for registration platform. It supports both English and Bangla language. The core model is based
                             on <a href="https://huggingface.co/docs/transformers/model_doc/donut"> Donut </a> model,
-                            achieving 96% acuracy on test set. Later it served real-time customers ensuring 10 TPS service quality.</p>
+                            achieving 96% acuracy on test set. Later it served real-time customers ensuring 10 TPS service quality.</p> -->
                             <ul class="list-inline item-details">
                                 <li>Type of Project:
                                     <strong>Official
@@ -381,7 +391,15 @@
                             <hr class="star-primary">
                             <img src="img/new-img/cycling.png" class="img-responsive img-centered" alt="">
                             <!--Developed a real-time Statistical Fingerprinting solution for identifying Devices for curtailing fraudulent behavior. -->
-                            <p>Developed a real-time Statistical Fingerprinting solution for identifying Devices for curtailing fraudulent behavior. It is implemented with C++ and is based on <a href="https://arxiv.org/pdf/2201.08099.pdf">this publicatoin</a>.</p>
+                            <p>
+                                Developed a real-time solution for identifying Devices for curtailing fraudulent behavior.
+                                Two different parts of this solution. One part is batched process that calculates risk score
+                                based on bi-weekly user behaviour. The other part is a real-time system that track device
+                                change and takes precautionary measures based on risk score. It is implemented with
+                                C++ and is based on <a href="https://arxiv.org/pdf/2201.08099.pdf">this publicatoin</a>.
+
+                            </p>
+                            <!-- <p>Developed a real-time Statistical Fingerprinting solution for identifying Devices for curtailing fraudulent behavior. It is implemented with C++ and is based on <a href="https://arxiv.org/pdf/2201.08099.pdf">this publicatoin</a>.</p> -->
                             <ul class="list-inline item-details">
                                 <li>Type of Project:
                                     <strong>Official
@@ -456,7 +474,11 @@
                             <h2>Usage Forecasting</h2>
                             <hr class="star-primary">
                             <img src="img/new-img/monitor.png" class="img-responsive img-centered" alt="">
-                            <p>Developed Forecasting model for inferring peak usage in Holiday Seasons and regular usage in other times.</p>
+                            <p>
+                                Developed Forecasting model for inferring peak usage in Holiday Seasons. Also predict
+                                location wise service usage which is used as business metrics and possible anomaly detection.
+                            </p>
+                            <!-- <p>Developed Forecasting model for inferring peak usage in Holiday Seasons and regular usage in other times.</p> -->
                             <ul class="list-inline item-details">
                                 <li>Type of Project:
                                     <strong>Official
@@ -490,10 +512,16 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>information Aggregator</h2>
+                            <h2>Info Assistant</h2>
                             <hr class="star-primary">
                             <img src="img/new-img/logic.png" class="img-responsive img-centered" alt="">
-                            <p>Works as an assistant to help you with any information on specific topic. You have to give the directory full of pdfs no that topic.</p>
+                            <p>
+                                Its a personal project inspired by <a href="https://huggingface.co/sentence-transformers/all-mpnet-base-v2">this </a> work
+                                that can assist you as an information aggregator.
+                                Best works with private information unknown to open internet. A memory less
+                                assistant perfect for those sort of private information
+                            </p>
+                            <!-- <p>Works as an assistant to help you with any information on specific topic. You have to give the directory full of pdfs no that topic.</p> -->
                             <ul class="list-inline item-details">
                                 <li>Type of Project:
                                     <strong>Personal
